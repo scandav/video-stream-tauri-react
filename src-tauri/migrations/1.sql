@@ -1,0 +1,6 @@
+CREATE TABLE videos (
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  author_name VARCHAR(200) NOT NULL,
+  author_surname VARCHAR(200) NOT NULL,
+  video_path VARCHAR(200)
+);
